@@ -37,6 +37,7 @@ ol {
   justify-content: center;
   padding: 0;
   list-style: none;
+ 
 }
 
 li {
@@ -45,13 +46,14 @@ li {
   margin-bottom: 10px;
   margin-left:10px;
   margin-right:10px;
-  font-size: 14px;
+  font-size: 13px;
   border-radius: 8px;
   position: relative;
   letter-spacing: 0;
   display: inline-block;
 	position: relative;
 	color: white;
+  
 }
 
 
