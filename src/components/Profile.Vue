@@ -15,7 +15,7 @@
 <p></p>
 <p>東京都内でぼちぼち働いてます。だいたい池袋にいます。</p>
 <p>普段の業務ではほぼ触っていないですが、フロントエンドの技術に興味があります。</p>
-<p>Swiftやビッグデータあたりの勉強もしたいなと思っています。動物が好き。。。</p>
+<p>SwiftやIoTあたりの勉強もしたいです。動物が好き。。。</p>
 <div class="snsimage">
 <a href="https://twitter.com/hatoo_kb"><img src="@/assets/Twitter_Social_Icon_Circle_Color.png" alt="twitter" width="40" height="40"></a>
 </div>

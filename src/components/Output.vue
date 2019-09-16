@@ -5,7 +5,7 @@
       <v-flex d-flex xs9 md6 v-for="(item, index) in items" :key=index>
         <div class="container">
         <v-card weight="100%" height="100%">
-          <img src="@/assets/KAZUHIRO171013022_TP_V.jpg" alt="">
+          <img v-bind:src="item.img" alt="">
           <div class="title">
           <v-card-title class="title">{{ item.title }}</v-card-title>
           </div>
@@ -19,7 +19,7 @@
           </ol>
           <v-card-actions>
           <div class="button">
-          <v-btn flat color="orange">詳しく見る</v-btn>
+          <v-btn flat color="orange" v-bind:href="item.url">詳しく見る</v-btn>
           </div>
         </v-card-actions>
         </v-card>
@@ -41,8 +41,9 @@ export default {
     return {
       items: [
         { title: 'プロフィールサイト', 
-          description: '当プロフィールサイトです。GithubPagesで公開予定です', 
-          path: '/profile',
+          img: '../../static/myprofile.png',
+          description: '当プロフィールサイトです。GithubPagesで公開してます。', 
+          url: 'https://k-kub0.github.io/myprofile',
           usedTechnology1:'HTML',
           usedTechnology2:'CSS',
           usedTechnology3:'Javascript(Vue.js)',
@@ -50,8 +51,8 @@ export default {
           },
 
         { title: 'Comming Soon....', 
+          img: '../../static/KAZUHIRO171013022_TP_V.jpg',
           description: 'Comming Soon....', 
-          path: '/profile',
           usedTechnology1:'Comming Soon....',
           usedTechnology2:'Comming Soon....',
           usedTechnology3:'Comming Soon....',
@@ -108,9 +109,9 @@ li {
 
 img {
   margin-top:2vw;
-  width: 36vw;
+  width: 40vw;
+  height: 22vw;
 }
-
 
 * {
   height: 100%;
