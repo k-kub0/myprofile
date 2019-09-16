@@ -32,7 +32,7 @@ export default {
 
 ol {
   margin-left: auto;
-  width: 480px;
+  /* width: 480px; */
   display:flex;
   justify-content: center;
   padding: 0;
@@ -90,6 +90,7 @@ a {
   position: sticky;
   top: 0;
   background-color:#39475D;
+  width: 100%;
 }
 
 </style>
