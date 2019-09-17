@@ -20,7 +20,6 @@ by Kenta Kubo
 </div>
 </div>
 </div>
-
 <div class="menu">
     <div class="content3">
       <ol>
