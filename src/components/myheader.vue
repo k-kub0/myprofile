@@ -41,11 +41,11 @@ ol {
 }
 
 li {
-  width: 100px;
+  width: 18vw;
   height: 50px;
   margin-bottom: 10px;
-  margin-left:10px;
-  margin-right:10px;
+  /* margin-left:10px; */
+  /* margin-right:10px; */
   font-size: 13px;
   border-radius: 8px;
   position: relative;

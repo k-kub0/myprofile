@@ -111,8 +111,8 @@ div.name {
 }
 
 div.top-summary {
-  /* font-size:80px; */
-  font-size:80px;
+  /* font-size:65px; */
+  font-size:6em;
   font-weight:bold;
   letter-spacing: 4px;
 }
