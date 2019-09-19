@@ -10,7 +10,7 @@ Welcome
 to
 </div>
 <div class='top3'>
-MyPage!!
+MyPage!
 </div>
 </div>
 
