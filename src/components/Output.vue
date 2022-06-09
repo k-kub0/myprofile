@@ -1,5 +1,6 @@
 <template>
 <body>
+  <h1 class="font-italic main-heading"><p class="font-weight-bold">Outputs</p></h1>
   <v-container fluid grid-list-lg>
     <v-layout wrap justify-space-around>
       <v-flex d-flex xs9 md6 v-for="(item, index) in items" :key=index>
@@ -10,7 +11,7 @@
           <v-card-title class="title">{{ item.title }}</v-card-title>
           </div>
           <v-card-text class="pb-4">{{ item.description }}</v-card-text>
-          <span class="under">使用技術</span>
+          <span class="under">使用したもの</span>
           <ol class="sample1">
           <li>{{ item.usedTechnology1 }}</li>
           <li>{{ item.usedTechnology2 }}</li>
@@ -41,7 +42,7 @@ export default {
     return {
       items: [
         { title: 'プロフィールサイト', 
-          img: '../../static/myprofile.png',
+          img: require('../assets/myprofile.png'),
           description: '当プロフィールサイトです。GithubPagesで公開してます。', 
           url: 'https://k-kub0.github.io/myprofile',
           usedTechnology1:'HTML',
@@ -50,13 +51,14 @@ export default {
           usedTechnology4:'Vuetify',
           },
 
-        { title: 'Comming Soon....', 
-          img: '../../static/KAZUHIRO171013022_TP_V.jpg',
-          description: 'Comming Soon....', 
-          usedTechnology1:'Comming Soon....',
-          usedTechnology2:'Comming Soon....',
-          usedTechnology3:'Comming Soon....',
-          usedTechnology4:'Comming Soon....',
+        { title: 'Kubos Note', 
+          img: require('../assets/kubosnote.png'),
+          description: '私が個人的にメモとして残しておきたい内容を投稿しています。初めてDjangoを使用しました。デプロイにはpythonanywhereを使用しています。', 
+          url: 'https://kkubo.pythonanywhere.com/',
+          usedTechnology1:'HTML',
+          usedTechnology2:'CSS',
+          usedTechnology3:'Python(Django)',
+          usedTechnology4:'pythonanywhere',
           },
       ]
     }
@@ -80,6 +82,11 @@ div.container {
 .under {
   background: linear-gradient(transparent 80%, #2d8fdd 80%);
   font-weight:bold;
+}
+
+.main-heading {
+  background-color: #39475D;
+  color: white;
 }
 
 ul, ol {

@@ -1,30 +1,29 @@
 <template>
 <body>
+  <h1 class="font-italic main-heading"><p class="font-weight-bold">Profile</p></h1>
   <div class="profile">
-<h1 class="heading">Basic Information</h1>
-
-
-
-<div class='content1'>
-<img src="@/assets/myphoto.png"/>
+   <h2 class="heading">Basic Information</h2>
+ <div class='content1'>
+<img src="@/assets/IMG_2722.jpg"/>
 </div>
 
 <div class='content1'>
-<h2>久保健太(Kubo Kenta)</h2>
+<h2>くぼ(Kubo)</h2>
 
 <p></p>
 <p>東京都内でぼちぼち働いてます。だいたい池袋にいます。</p>
-<p>普段の業務ではほぼ触っていないですが、フロントエンドの技術に興味があります。</p>
-<p>SwiftやIoTあたりの勉強もしたいです。動物が好き。。。</p>
+<p>普段の業務ではあまり触れていないですが、フロントエンドの技術に興味があります。</p>
+<p>動物が好き。。</p>
 <div class="snsimage">
 <a href="https://twitter.com/hatoo_kb"><img src="@/assets/Twitter_Social_Icon_Circle_Color.png" alt="twitter" width="40" height="40"></a>
+<a href="https://kekekkusu.hatenablog.com/"><img src="@/assets/hatenablog.png" alt="hatenablog" width="40" height="40"></a>
 </div>
 </div>
 
 <table class="tbl-r02">
   <tr>
     <th>生年月日</th>
-    <td>1995年4月10日(24歳)</td>
+    <td>1995年4月10日(25歳)</td>
   </tr>
   <tr>
     <th>居住地</th>
@@ -54,22 +53,7 @@
 
 
 
-<h1 class="heading">Hobby</h1>
-
-<div class="contents-wrap">
-	<div class="contents-img">
-		<img src="@/assets/kintore_machine.png" alt="">
-	</div>
-	<div class="contents-text">
-		<h2>スポーツジム</h2>
-		<p>社会人になってから10kg弱増加した体重を見て流石にマズいと感じ、池袋の某ジムに通い始めました。</p>
-    <p>目指せ現体重から-5kg!!</p>
-    <p>痩せる痩せる痩せる痩せる痩せる痩せる痩せる痩せる痩せる</p>
-    <p>現状報告：-2kg</p>
-	</div>
-</div>
-
-<hr class="cp_hr08"/>
+<h2 class="heading">Hobby</h2>
 
 <div class="contents-wrap">
 	<div class="contents-img">
@@ -79,15 +63,11 @@
 		<h2>動物</h2>
 		<p>動物を見たり動物と触れ合ったりするのが好きです。</p>
     <p>最近はハムスターとかハリネズミが熱い。</p>
-    <p>近いうちに飼いたい</p>
+    <p>将来は飼いたいです。。。</p>
 	</div>
 </div>
-
-
-   
-
-  </div>
-  </body>
+</div>
+</body>
 </template>
 
 <script>
@@ -111,8 +91,8 @@ export default {
           text: '東京都市大学を無事卒業後、ソフトウェア開発会社に就職。　就職を機に東京都板橋区に引っ越す。'
         },
         {
-          year: '2019',
-          text: '現在に至る 現在社会人2年目'
+          year: '2020',
+          text: '現在に至る 現在社会人3年目'
         },
       ],
     }),
@@ -124,6 +104,10 @@ export default {
 /* * {
     display: inline-block;
 } */
+
+.snsimage{
+  padding-right:15px;
+}
 
 .profile {
   background-color: snow;
@@ -141,6 +125,11 @@ div.content2 {
   margin: 10px;
   width: 100%;
   padding: 200px;
+}
+
+.main-heading {
+  background-color: #39475D;
+  color: white;
 }
 
 .heading {

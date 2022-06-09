@@ -10,13 +10,13 @@ Welcome
 to
 </div>
 <div class='top3'>
-MyPage!
+Kubo's Page!
 </div>
 </div>
 
 <div class='top3'>
 <div class='name'>
-by Kenta Kubo
+
 </div>
 </div>
 </div>
@@ -111,7 +111,7 @@ div.name {
 
 div.top-summary {
   /* font-size:65px; */
-  font-size:6em;
+  font-size:5em;
   font-weight:bold;
   letter-spacing: 4px;
 }

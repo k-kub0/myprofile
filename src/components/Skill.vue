@@ -1,5 +1,6 @@
 <template>
 <body>
+  <h1 class="font-italic main-heading"><p class="font-weight-bold">Skills</p></h1>
 <v-container fluid grid-list-lg>
     <v-layout wrap justify-space-around>
       <v-flex d-flex xs9 md6 v-for="(item, index) in items" :key=index>
@@ -30,45 +31,45 @@ export default {
     return {
       items: [
         { 
-          heading:'FrontEnd',
+          heading:'Language',
           usedTechnology1:'HTML',
           usedTechnology2:'CSS',
-          usedTechnology3:'Javascript',
-          usedTechnology4:'Vue.js',
+          usedTechnology3:'JavaScript',
+          usedTechnology4:'PHP',
           Usageexperience:'使用経験有り'
           },
 
         {
-          heading:'BackEnd',
-          usedTechnology1:'PHP(Laravel)',
-          usedTechnology2:'×',
-          usedTechnology3:'×',
+          heading:'Framework',
+          usedTechnology1:'Vue.js',
+          usedTechnology2:'Laravel',
+          usedTechnology3:'BootStrap',
           usedTechnology4:'×',
           Usageexperience:'使用経験有り'
           },
 
         { 
-          heading:'DB',
-          usedTechnology1:'PostgreSQL',
-          usedTechnology2:'×',
-          usedTechnology3:'×',
+          heading:'Tool',
+          usedTechnology1:'AWS',
+          usedTechnology2:'VirtualBox',
+          usedTechnology3:'Docker',
           usedTechnology4:'×',
           Usageexperience:'使用経験有り'
           },
         
         {
-          heading:'Others',
-          usedTechnology1:'Windowsバッチ',
-          usedTechnology2:'Swift',
-          usedTechnology3:'SQL',
+          heading:'OS',
+          usedTechnology1:'Windows',
+          usedTechnology2:'MacOS',
+          usedTechnology3:'Linux',
           usedTechnology4:'×',
           Usageexperience:'使用経験有り'
           },
 
          {
           heading:'Qualification',
-          usedTechnology1:'色彩検定 2級',
-          usedTechnology2:'×',
+          usedTechnology1:'AWS クラウドプラクティショナー',
+          usedTechnology2:'色彩検定 2級',
           usedTechnology3:'×',
           usedTechnology4:'×',
           Usageexperience:'保有資格'
@@ -91,6 +92,11 @@ div.container {
 .under {
   background: linear-gradient(transparent 80%, #2d8fdd 80%);
   font-weight:bold;
+}
+
+.main-heading {
+  background-color: #39475D;
+  color: white;
 }
 
 .heading {

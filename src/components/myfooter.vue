@@ -1,7 +1,7 @@
 <template>
 <body>
  <div class="message">
-Copyright©Kenta Kubo. All Rights Reserved.
+Copyright©Kubo. All Rights Reserved.
  </div>
 </body>
 </template>

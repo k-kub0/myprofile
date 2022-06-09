@@ -32,6 +32,7 @@ export default {
 
 ol {
   margin-left: auto;
+  margin-right: auto;
   /* width: 480px; */
   display:flex;
   justify-content: center;
@@ -41,6 +42,8 @@ ol {
 }
 
 li {
+  margin-right:7vw;
+  margin-left:7vw;
   width: 18vw;
   height: 50px;
   margin-bottom: 10px;
@@ -94,5 +97,6 @@ a {
   background-color:#39475D;
   width: 100%;
 }
+
 
 </style>
