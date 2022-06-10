@@ -6,7 +6,7 @@
 
 
 <div class='content1'>
-<img src="@/assets/myphoto.png"/>
+<img src="@/assets/profileimagepng.png"/>
 </div>
 
 <div class='content1'>
