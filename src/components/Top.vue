@@ -17,6 +17,8 @@ MyPage!
 <div class='top3'>
 <div class='name'>
 by Kenta Kubo
+<br>
+※ただいま工事中です。。
 </div>
 </div>
 </div>
@@ -35,6 +37,7 @@ by Kenta Kubo
       </ol>
       </div>
 </div> 
+
 </div>
 </body>
 </template>

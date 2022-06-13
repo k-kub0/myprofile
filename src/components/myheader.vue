@@ -34,14 +34,15 @@ ol {
   margin-left: auto;
   /* width: 480px; */
   display:flex;
-  justify-content: center;
+  /* justify-content: center; */
   padding: 0;
   list-style: none;
+  float: right;
  
 }
 
 li {
-  width: 18vw;
+  width: 6vw;
   height: 50px;
   margin-bottom: 10px;
   /* margin-left:10px; */

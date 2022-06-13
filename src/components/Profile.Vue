@@ -1,10 +1,7 @@
 <template>
 <body>
-  <div class="profile">
-<h1 class="heading">Basic Information</h1>
-
-
-
+<div class="box11">
+<h1 class="heading">Profile</h1>
 <div class='content1'>
 <img src="@/assets/profileimagepng.png"/>
 </div>
@@ -13,9 +10,9 @@
 <h2>久保健太(Kubo Kenta)</h2>
 
 <p></p>
-<p>東京都内でぼちぼち働いてます。だいたい池袋にいます。</p>
-<p>普段の業務ではほぼ触っていないですが、フロントエンドの技術に興味があります。</p>
-<p>SwiftやIoTあたりの勉強もしたいです。動物が好き。。。</p>
+<p>テストテストテスト</p>
+<p>テストテストテスト</p>
+<p>テスト</p>
 <div class="snsimage">
 <a href="https://twitter.com/hatoo_kb"><img src="@/assets/Twitter_Social_Icon_Circle_Color.png" alt="twitter" width="40" height="40"></a>
 </div>
@@ -24,15 +21,15 @@
 <table class="tbl-r02">
   <tr>
     <th>生年月日</th>
-    <td>1995年4月10日(24歳)</td>
+    <td>1995年4月10日(27歳)</td>
   </tr>
   <tr>
     <th>居住地</th>
-    <td>東京都板橋区</td>
+    <td>埼玉県さいたま市</td>
   </tr>
 </table>
 
-<div class="timeline">
+<!-- <div class="timeline">
   <v-timeline>
     <v-timeline-item
       v-for="(year, i) in years"
@@ -50,11 +47,11 @@
       </v-card>
     </v-timeline-item>
   </v-timeline>
-</div>
+</div> -->
 
 
 
-<h1 class="heading">Hobby</h1>
+<!-- <h1 class="heading">Hobby</h1>
 
 <div class="contents-wrap">
 	<div class="contents-img">
@@ -81,7 +78,7 @@
     <p>最近はハムスターとかハリネズミが熱い。</p>
     <p>近いうちに飼いたい</p>
 	</div>
-</div>
+</div> -->
 
 
    
@@ -125,9 +122,9 @@ export default {
     display: inline-block;
 } */
 
-.profile {
+/* .profile {
   background-color: snow;
-}
+} */
 
 div.content1 {
   float: center;
@@ -145,11 +142,11 @@ div.content2 {
 
 .heading {
 	position: relative;
-  margin-top: 1em;
-	margin-bottom: 1em;
+  /* margin-top: 1em; */
+	margin: 3vm;
 	text-align: center;
 }
-.heading:before {
+/* .heading:before {
 	content: '';
 	position: absolute;
 	bottom: -8px;
@@ -160,7 +157,7 @@ div.content2 {
 	transform: translateX(-50%);
 	background-color: orange;
 	border-radius: 2px;
-}
+} */
 
 table {
   margin: 20px auto;
@@ -282,7 +279,7 @@ p {
 body {
     animation: fadeIn 3s ease 0s 1 normal;
     -webkit-animation: fadeIn 2s ease 0s 1 normal;
-    background-color:snow;
+    /* background-color:snow; */
 }
 
 @keyframes fadeIn {
@@ -293,6 +290,39 @@ body {
 @-webkit-keyframes fadeIn {
     0% {opacity: 0}
     100% {opacity: 1}
+}
+
+.box11{
+    /* /* padding: 0.5em 1em; */
+    margin: 5vw;
+    color: #5d627b;
+    background: snow;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.box11 p {
+    margin: 0; 
+    padding: 0;
+}
+
+h1 {
+position: relative;
+background-color: #39475D;
+color: snow;
+}
+
+h1::before {
+content: "";
+position: absolute;
+border: 12px solid transparent;
+border-top: 12px solid #39475D;;
+top: 100%;
+left: 50%;
+}
+
+h1 p {
+margin: 0;
+padding: 0;
 }
 
 * {
